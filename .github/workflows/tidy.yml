@@ -17,7 +17,7 @@ jobs:
       - name: Fetch latest release tag from external repository
         id: fetch-release
         run: |
-          EXTERNAL_REPO="XTLS/Xray-core"
+          EXTERNAL_REPO="1345695/Xray-core"
           LATEST_TAG=$(curl -s https://api.github.com/repos/$EXTERNAL_REPO/tags | jq -r '.[0]')
           LATEST_TAG_NAME=$(echo $LATEST_TAG | jq -r .name)
           LATEST_TAG_SHA=$(echo $LATEST_TAG | jq -r .commit.sha)
@@ -57,7 +57,7 @@ jobs:
         if: env.needs_update == 'true'
         run: |
           # Sync Go version from upstream go.mod
-          EXTERNAL_REPO="XTLS/Xray-core"
+          EXTERNAL_REPO="1345695/Xray-core"
           GO_VERSION=$(curl -s https://raw.githubusercontent.com/$EXTERNAL_REPO/${{ env.LATEST_TAG_NAME }}/go.mod | awk '/^go / {print $2; exit}')
           if [ -n "$GO_VERSION" ]; then
             echo "Syncing Go version to $GO_VERSION"
@@ -66,7 +66,7 @@ jobs:
             echo "Failed to detect Go version from upstream go.mod"
           fi
 
-          go get github.com/xtls/xray-core@${{ env.LATEST_TAG_SHA }}
+          go mod edit -replace=github.com/xtls/xray-core=github.com/1345695/Xray-core@${{ env.LATEST_TAG_SHA }}
           go get golang.org/x/mobile@latest
           
           # Clean up and verify module dependencies
