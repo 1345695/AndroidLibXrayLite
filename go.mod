@@ -3,11 +3,11 @@ module github.com/2dust/AndroidLibXrayLite
 go 1.26
 
 require (
-	github.com/xtls/xray-core v1.260206.1-0.20260323102121-cb7bfeb54c79
+	github.com/xtls/xray-core v1.260327.0
 	golang.org/x/mobile v0.0.0-20260312152759-81488f6aeb60
 )
 
-replace github.com/xtls/xray-core => github.com/1345695/Xray-core v0.0.0-20260324211939-a8df77cfd254
+replace github.com/xtls/xray-core => github.com/1345695/Xray-core v0.0.0-20260328050715-41a0b78516e2
 
 require (
 	github.com/andybalholm/brotli v1.2.0 // indirect
