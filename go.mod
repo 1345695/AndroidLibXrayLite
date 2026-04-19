@@ -7,7 +7,7 @@ require (
 	golang.org/x/mobile v0.0.0-20260410095206-2cfb76559b7b
 )
 
-replace github.com/xtls/xray-core => github.com/1345695/Xray-core v0.0.0-20260416074103-a7f81b80e20e
+replace github.com/xtls/xray-core => github.com/1345695/Xray-core v0.0.0-20260419164032-1e9746d7262e
 
 require (
 	github.com/andybalholm/brotli v1.2.0 // indirect
@@ -21,7 +21,7 @@ require (
 	github.com/klauspost/cpuid/v2 v2.3.0 // indirect
 	github.com/miekg/dns v1.1.72 // indirect
 	github.com/pelletier/go-toml v1.9.5 // indirect
-	github.com/pires/go-proxyproto v0.11.0 // indirect
+	github.com/pires/go-proxyproto v0.12.0 // indirect
 	github.com/quic-go/qpack v0.6.0 // indirect
 	github.com/refraction-networking/utls v1.8.3-0.20260301010127-aa6edf4b11af // indirect
 	github.com/rogpeppe/go-internal v1.14.1 // indirect

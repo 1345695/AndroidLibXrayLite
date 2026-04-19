@@ -12,6 +12,10 @@ on:
   push:
     branches:
       - main
+
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -20,7 +24,16 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v6.0.0
       
-    - name: Setup Golang
+    - name: Setup Golang bootstrap
+      uses: actions/setup-go@v6.1.0
+      with:
+        go-version: 'stable'
+
+    - name: Update xray-core before build
+      run: |
+        bash scripts/update_xray_core.sh
+
+    - name: Setup Golang for build
       uses: actions/setup-go@v6.1.0
       with:
         go-version-file: 'go.mod'
