@@ -28,8 +28,12 @@ jobs:
       uses: actions/setup-go@v6.1.0
       with:
         go-version: 'stable'
+        cache: false
 
     - name: Update xray-core before build
+      env:
+        GOMODCACHE: ${{ runner.temp }}/go-bootstrap/pkg/mod
+        GOCACHE: ${{ runner.temp }}/go-bootstrap/cache
       run: |
         bash scripts/update_xray_core.sh
 
