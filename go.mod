@@ -8,7 +8,7 @@ require (
 	golang.org/x/mobile v0.0.0-20260410095206-2cfb76559b7b
 )
 
-replace github.com/xtls/xray-core => github.com/1345695/Xray-core v0.0.0-20261117064522-a4ff87816a52
+replace github.com/xtls/xray-core => github.com/1345695/Xray-core v0.0.0-20261118195051-51a72022ed5c
 
 require (
 	github.com/ghodss/yaml v1.0.1-0.20220118164431-d8423dcdf344 // indirect
