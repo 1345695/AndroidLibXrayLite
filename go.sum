@@ -1,5 +1,5 @@
-github.com/1345695/Xray-core v0.0.0-20261118195051-51a72022ed5c h1:s2+sDkiAZzCx5m4Z5/JCYyItWcTFyNoC6YvRyoUZ30Y=
-github.com/1345695/Xray-core v0.0.0-20261118195051-51a72022ed5c/go.mod h1:LfoDNJ8dMPeSXRVxoW7oRod+ZG0h4F1vxIY2N2spT18=
+github.com/1345695/Xray-core v0.0.0-20261119183701-89c12a5e9153 h1:WaJQH4NIkXin9rBTGXBM1SnufqIwhvPt/bjfwxDyrkA=
+github.com/1345695/Xray-core v0.0.0-20261119183701-89c12a5e9153/go.mod h1:vP/TBQ6avarlXZgoytK7JFBOp6WqMGdfGnz+XcYT15Q=
 github.com/apernet/quic-go v0.63.1-0.20261004180939-a10df75c260c h1:cxK8qTA0YCsj68A7zLYDCfPgMTOyt3ePkHh+oXEmYU0=
 github.com/apernet/quic-go v0.63.1-0.20261004180939-a10df75c260c/go.mod h1:J7UZVOMF2M1LiE3iiUZWPuy8YCPAcLJOwVURrfJCvc0=
 github.com/chzyer/logex v1.1.10/go.mod h1:+Ywpsq7O8HXn0nuIou7OrIPyXbp3wmkHB+jjWRnGsAI=
@@ -28,8 +28,8 @@ github.com/jackpal/go-nat-pmp v1.0.2 h1:KzKSgb7qkJvOUTqYl9/Hg/me3pWgBmERKrTGD7Bd
 github.com/jackpal/go-nat-pmp v1.0.2/go.mod h1:QPH045xvCAeXUZOxsnwmrtiCoxIr9eob+4orBN1SBKc=
 github.com/juju/ratelimit v1.0.2 h1:sRxmtRiajbvrcLQT7S+JbqU0ntsb9W2yhSdNN8tWfaI=
 github.com/juju/ratelimit v1.0.2/go.mod h1:qapgC/Gy+xNh9UxzV13HGGl/6UXNN+ct+vwSgWNm/qk=
-github.com/klauspost/compress v1.20.1 h1:T7kKElXUMXrUJ2E9QhQhxFtcK5rPyLdsGZvdbLMPdiQ=
-github.com/klauspost/compress v1.20.1/go.mod h1:LUdAzn7YLVvxLpc7y3V1m40wESHTgc1422pwwBSKYuI=
+github.com/klauspost/compress v1.20.4 h1:dD0v/bvxtjCBqQu6sx1TNWkalEY5lNTIe+HY9w8TeNI=
+github.com/klauspost/compress v1.20.4/go.mod h1:LUdAzn7YLVvxLpc7y3V1m40wESHTgc1422pwwBSKYuI=
 github.com/klauspost/cpuid/v2 v2.4.2 h1:xRw7IZEsAgVCp6trS/DgWbTAqpixhmywgVgBjYGg1bQ=
 github.com/klauspost/cpuid/v2 v2.4.2/go.mod h1:19jmZ9mjzoF//ddRSUsv0zfBTJWh3QJh9FNxZTMrGxU=
 github.com/koron/go-ssdp v0.0.4 h1:1IDwrghSKYM7yLf7XCzbByg2sJ/JcNOZRXS2jczTwz0=

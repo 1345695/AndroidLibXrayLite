@@ -8,7 +8,7 @@ require (
 	golang.org/x/mobile v0.0.0-20260410095206-2cfb76559b7b
 )
 
-replace github.com/xtls/xray-core => github.com/1345695/Xray-core v0.0.0-20261118195051-51a72022ed5c
+replace github.com/xtls/xray-core => github.com/1345695/Xray-core v0.0.0-20261119183701-89c12a5e9153
 
 require (
 	github.com/ghodss/yaml v1.0.1-0.20220118164431-d8423dcdf344 // indirect
@@ -19,7 +19,7 @@ require (
 	github.com/huin/goupnp v1.2.0 // indirect
 	github.com/jackpal/go-nat-pmp v1.0.2 // indirect
 	github.com/juju/ratelimit v1.0.2 // indirect
-	github.com/klauspost/compress v1.20.1 // indirect
+	github.com/klauspost/compress v1.20.4 // indirect
 	github.com/klauspost/cpuid/v2 v2.4.2 // indirect
 	github.com/koron/go-ssdp v0.0.4 // indirect
 	github.com/kr/pretty v0.3.1 // indirect
